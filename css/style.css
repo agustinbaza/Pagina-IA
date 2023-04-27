@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&family=Arvo&family=Bebas+Neue&family=Black+Han+Sans&family=Karla:wght@600&family=Londrina+Outline&family=Montserrat:wght@300&family=Open+Sans&family=Orbitron&family=Poppins&family=Roboto:wght@300&family=Work+Sans:wght@500&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.imagenLogo {
+  width: 40px;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #fbfbfb;
+background-image: linear-gradient(180deg, #fbfbfb 29%, #05fffc 100%);
+
+}
+
+main {
+  flex-grow: 1;
+}
+
+.espaciosNav {
+  padding: 5px 20px;
+  font-size: 20px;
+}
+
+footer {
+  background-color: black;
+  padding: 25px;
+  color: #05fffc;
+  text-align: center;
+  width: 100%;
+  font-size: 20PX;
+}
+
+.cardOrden {
+  width: 24rem;
+  margin-bottom: 30px;
+  margin-top: 10%;
+}
+
+hr {
+  margin: 10px 450px;
+}
+
+.boton {
+border: solid 1px #05fffc;
+color: #05fffc;
+
+
+}
+
+.titulo {
+    color: #05fffc;
+}
+
+/* dispositivos small */
+
+@media all and (max-width: 767px) {
+  .cardOrden {
+    width: 100%;
+  }
+
+  h1 {
+    width: 98%;
+  }
+
+  hr {
+    margin: 10px 8px;
+  }
+  footer {
+   margin-top: 60px;
+   font-size: 15px;
+  }
+}
+
+/* dispositivos medium */
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .cardOrden {
+    width: 43rem;
+  }
+
+  hr {
+    margin: 0px 100px;
+  }
+  footer {
+    margin-top: 60px;
+    font-size: 25px;
+   }
+}
