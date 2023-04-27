@@ -38,13 +38,17 @@ footer {
 }
 
 .cardOrden {
-  width: 24rem;
+  width: 22rem;
   margin-bottom: 30px;
   margin-top: 10%;
 }
 
 hr {
   margin: 10px 450px;
+}
+
+.hr2 {
+    margin: 1% 20%;
 }
 
 .boton {
@@ -56,7 +60,41 @@ color: #05fffc;
 
 .titulo {
     color: #05fffc;
+   
 }
+
+.stroke {
+    text-align: center;
+    color: #05fffc;
+    font-family: 'Open Sans';
+    font-size: 50px;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+    -webkit-text-fill-color: #05fffc;
+    -webkit-text-stroke: 1px black;
+    
+    }
+
+    .ordenPagina {
+        margin: 1% 20%;
+        margin-bottom: 4%;
+   
+    }
+
+    .parrafo {
+        text-align: justify;
+        margin: 1% 5%;
+        font-size: 25px;
+        
+    }
+
+    .imagen {
+        width: 90%;
+       text-align: center;
+    }
+
+    .subtitulo{
+        font-size: 22px ;
+    }
 
 /* dispositivos small */
 
@@ -66,7 +104,8 @@ color: #05fffc;
   }
 
   h1 {
-    width: 98%;
+    width: 90%;
+    margin: 1% 4%;
   }
 
   hr {
@@ -74,8 +113,44 @@ color: #05fffc;
   }
   footer {
    margin-top: 60px;
-   font-size: 15px;
+   font-size: 12px;
   }
+
+  .stroke {
+    text-align: center;
+    color: #05fffc;
+    font-family: 'Open Sans';
+    font-size: 30px;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+    -webkit-text-fill-color: #05fffc;
+    -webkit-text-stroke: 1px black;
+    
+    
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+    .hr2 {
+        margin: 1% 0%;
+    }
+    .parrafo {
+        text-align: justify;
+        margin: 1% 0%;
+        font-size: 13px;
+        
+        
+    }
+
+    .imagen {
+        width: 100%;
+   
+    }
+
+    .subtitulo {
+        font-size: 15px;
+        text-align: justify;
+    }
 }
 
 /* dispositivos medium */
@@ -85,6 +160,11 @@ color: #05fffc;
     width: 43rem;
   }
 
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
   hr {
     margin: 0px 100px;
   }
@@ -92,4 +172,35 @@ color: #05fffc;
     margin-top: 60px;
     font-size: 25px;
    }
+
+   .stroke {
+    text-align: center;
+    color: #05fffc;
+    font-family: 'Open Sans';
+    font-size: 40px;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+    -webkit-text-fill-color: #05fffc;
+    -webkit-text-stroke: 1px black;
+    
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+    .hr2 {
+        margin: 1% 0%;
+    }
+    .parrafo {
+        text-align: justify;
+        margin: 1% 1%;
+        font-size: 15px;
+        
+    }
+
+    .imagen {
+        width: 100%;
+       
+    }
+
+  
 }
