@@ -87,6 +87,18 @@ hr {
   text-align: center;
 }
 
+.imagen2 {
+    height: 60%;
+    width:70%;
+}
+
+.parrafo2 {
+text-align: justify;
+width: 70%;
+  font-size: 25px;
+}
+
+
 .subtitulo {
   font-size: 22px;
 }
@@ -95,11 +107,29 @@ hr {
   margin: 1% 5%;
 }
 
+.fotoMia {
+    width: 15%;
+    margin: 1% 5%;
+}
+
+.hr3 {
+    width: 70%;
+    margin: 1% 5%;
+}
+
+.ordenRedactor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
 /* dispositivos small */
 
 @media all and (max-width: 767px) {
   .cardOrden {
-    width: 100%;
+    width: 90%;
+    margin: 5%;
   }
 
   h1 {
@@ -108,7 +138,8 @@ hr {
   }
 
   hr {
-    margin: 10px 8px;
+    margin: 2% 8%;
+
   }
   footer {
     margin-top: 60px;
@@ -150,6 +181,35 @@ hr {
   .formulario {
     margin: 10% 5%;
   }
+
+  .imagen2 {
+    height: 60%;
+    width:100%;
+}
+
+.parrafo2 {
+    text-align: justify;
+    width: 100%;
+      font-size: 15px;
+    }
+
+    .fotoMia {
+        width: 35%;
+        margin: 1% 1%;
+    }
+    
+    .hr3 {
+        width: 70%;
+        margin: 1% 1%;
+    }
+    
+    .ordenRedactor {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+
 }
 
 /* dispositivos medium */
