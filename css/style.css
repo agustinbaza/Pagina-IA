@@ -88,16 +88,15 @@ hr {
 }
 
 .imagen2 {
-    height: 60%;
-    width:70%;
+  height: 60%;
+  width: 70%;
 }
 
 .parrafo2 {
-text-align: justify;
-width: 70%;
+  text-align: justify;
+  width: 70%;
   font-size: 25px;
 }
-
 
 .subtitulo {
   font-size: 22px;
@@ -108,20 +107,35 @@ width: 70%;
 }
 
 .fotoMia {
-    width: 15%;
-    margin: 1% 5%;
+  width: 15%;
+  margin: 1% 5%;
 }
 
 .hr3 {
-    width: 70%;
-    margin: 1% 5%;
+  width: 70%;
+  margin: 1% 5%;
 }
 
 .ordenRedactor {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.bordes {
+  border: 1px solid black;
+  margin: 1% 5%;
+  border-radius: 1em;
+  height: 10%;
+
+  color: #000000;
+}
+
+.hrForm {
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  color: #000000;
 }
 
 /* dispositivos small */
@@ -139,7 +153,6 @@ width: 70%;
 
   hr {
     margin: 2% 8%;
-
   }
   footer {
     margin-top: 60px;
@@ -161,7 +174,7 @@ width: 70%;
     font-size: 14px;
   }
   .hr2 {
-    margin: 1% 0%;
+    margin: 4% 0%;
   }
   .parrafo {
     text-align: justify;
@@ -184,32 +197,39 @@ width: 70%;
 
   .imagen2 {
     height: 60%;
-    width:100%;
-}
+    width: 100%;
+  }
 
-.parrafo2 {
+  .parrafo2 {
     text-align: justify;
     width: 100%;
-      font-size: 15px;
-    }
+    font-size: 15px;
+  }
 
-    .fotoMia {
-        width: 35%;
-        margin: 1% 1%;
-    }
-    
-    .hr3 {
-        width: 70%;
-        margin: 1% 1%;
-    }
-    
-    .ordenRedactor {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        
-    }
+  .fotoMia {
+    width: 35%;
+    margin: 1% 1%;
+  }
 
+  .hr3 {
+    width: 70%;
+    margin: 1% 1%;
+  }
+
+  .ordenRedactor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .ordenPagina {
+    margin: 1% 8%;
+    margin-bottom: 4%;
+  }
+
+  .formulario {
+    margin: 1% 0%;
+  }
 }
 
 /* dispositivos medium */
