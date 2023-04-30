@@ -2,6 +2,7 @@ let comentario = document.getElementById("comentarios");
 let boton = document.getElementById("boton");
 let formulario = document.getElementById("formulario");
 let nombre = document.getElementById("nombre");
+let publicidad = document.getElementById("publicidad");
 
 function guardarComentario() {
   let guardar = formulario.value;
@@ -11,7 +12,17 @@ function guardarComentario() {
     <hr class="hrForm">
     <p class="fs-3 mb-1 p-2"> ${guardar} </p>
   `;
- formulario.reset();
 }
 
 boton.addEventListener("click", guardarComentario);
+
+
+function mostrarPublicidad() {
+ publicidad.innerHTML = '<img src="../img/fondo.jpg" />';
+}
+
+setTimeout(mostrarPublicidad, 4000);
+
+
+
+
