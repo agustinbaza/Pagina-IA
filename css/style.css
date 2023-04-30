@@ -123,6 +123,22 @@ hr {
     
 }
 
+.bordes {
+  border: 1px solid black;
+  margin: 1% 5%;
+  border-radius: 1em;
+  height: 10%;
+
+  color: #000000;
+}
+
+.hrForm {
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  color: #000000;
+}
+
 /* dispositivos small */
 
 @media all and (max-width: 767px) {
