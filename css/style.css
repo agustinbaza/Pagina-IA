@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Anuphan&family=Arvo&family=Bebas+Neue&family=Black+Han+Sans&family=Karla:wght@600&family=Londrina+Outline&family=Montserrat:wght@300&family=Open+Sans&family=Orbitron&family=Poppins&family=Roboto:wght@300&family=Work+Sans:wght@500&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.imagenLogo {
+  width: 40px;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #fbfbfb;
+  background-image: linear-gradient(180deg, #fbfbfb 29%, #05fffc 100%);
+}
+
+main {
+  flex-grow: 1;
+}
+
+.espaciosNav {
+  padding: 5px 20px;
+  font-size: 20px;
+}
+
+footer {
+  background-color: black;
+  padding: 25px;
+  color: #05fffc;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  margin-top: 5%;
+}
+
+.cardOrden {
+  width: 22rem;
+  margin-bottom: 30px;
+  margin-top: 10%;
+}
+
+hr {
+  margin: 10px 450px;
+}
+
+.hr2 {
+  margin: 1% 20%;
+}
+
+.boton {
+  border: solid 1px #05fffc;
+  color: #05fffc;
+}
+
+.titulo {
+  color: #05fffc;
+}
+
+.stroke {
+  text-align: center;
+  color: #05fffc;
+  font-family: "Open Sans";
+  font-size: 50px;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000,
+    1px -1px 1px #000;
+  -webkit-text-fill-color: #05fffc;
+  -webkit-text-stroke: 1px black;
+}
+
+.ordenPagina {
+  margin: 1% 20%;
+  margin-bottom: 4%;
+}
+
+.parrafo {
+  text-align: justify;
+  margin: 1% 5%;
+  font-size: 25px;
+}
+
+.imagen {
+  width: 90%;
+  text-align: center;
+}
+
+.imagen2 {
+  height: 60%;
+  width: 70%;
+}
+
+.parrafo2 {
+  text-align: justify;
+  width: 70%;
+  font-size: 25px;
+}
+
+.subtitulo {
+  font-size: 22px;
+}
+
+.formulario {
+  margin: 1% 5%;
+}
+
+.fotoMia {
+  width: 15%;
+  margin: 1% 5%;
+}
+
+.hr3 {
+  width: 70%;
+  margin: 1% 5%;
+}
+
+.ordenRedactor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.bordes {
+  border: 1px solid black;
+  margin: 1% 5%;
+  border-radius: 1em;
+  height: 10%;
+
+  color: #000000;
+}
+
+.hrForm {
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  color: #000000;
+}
+
+/* dispositivos small */
+
+@media all and (max-width: 767px) {
+  .cardOrden {
+    width: 90%;
+    margin: 5%;
+  }
+
+  .ordenPagina {
+    margin: 1% 10%;
+    margin-bottom: 4%;
+  }
+
+  h1 {
+    width: 90%;
+    margin: 1% 4%;
+  }
+
+  hr {
+    margin: 2% 8%;
+  }
+  footer {
+    margin-top: 60px;
+    font-size: 12px;
+  }
+
+  .stroke {
+    text-align: center;
+    color: #05fffc;
+    font-family: "Open Sans";
+    font-size: 30px;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000,
+      1px -1px 1px #000;
+    -webkit-text-fill-color: #05fffc;
+    -webkit-text-stroke: 1px black;
+  }
+
+  h4 {
+    font-size: 14px;
+  }
+  .hr2 {
+    margin: 4% 0%;
+  }
+
+  .parrafo {
+    text-align: justify;
+    margin: 1% 1%;
+    font-size: 15px;
+  }
+
+  .imagen {
+    width: 100%;
+  }
+
+  .subtitulo {
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  .formulario {
+    margin: 10% 5%;
+  }
+
+  .imagen2 {
+    height: 60%;
+    width: 100%;
+  }
+
+  .parrafo2 {
+    text-align: justify;
+    width: 100%;
+    font-size: 15px;
+  }
+
+    .fotoMia {
+        width: 35%;
+        margin: 1% 1%;
+    }
+    
+    .hr3 {
+        width: 70%;
+        margin: 1% 1%;
+    }
+    
+    .ordenRedactor {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+
+}
+
+/* dispositivos medium */
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .cardOrden {
+    width: 43rem;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  hr {
+    margin: 0px 100px;
+  }
+  footer {
+    margin-top: 60px;
+    font-size: 25px;
+  }
+
+  .stroke {
+    text-align: center;
+    color: #05fffc;
+    font-family: "Open Sans";
+    font-size: 40px;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000,
+      1px -1px 1px #000;
+    -webkit-text-fill-color: #05fffc;
+    -webkit-text-stroke: 1px black;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+  .hr2 {
+    margin: 1% 0%;
+  }
+  .parrafo {
+    text-align: justify;
+    margin: 1% 1%;
+    font-size: 20px;
+  }
+
+  .imagen {
+    width: 100%;
+  }
+
+  .fotoMia {
+    width: 35%;
+    margin: 1% 1%;
+  }
+
+  .hr3 {
+    width: 70%;
+    margin: 1% 1%;
+  }
+
+  .ordenRedactor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .parrafo2 {
+    text-align: justify;
+    width: 70%;
+    font-size: 15px;
+  }
+
+  .ordenPagina {
+    margin: 1% 10%;
+    margin-bottom: 4%;
+  }
+}
